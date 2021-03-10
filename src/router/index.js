@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Enterprise from '../views/Enterprise.vue'
 import Contactsales from '../views/Contactsales.vue'
-// import Notfound from '../views/Notfound.vue'
 
 const routes = [
   {

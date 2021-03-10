@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #462686;
+    --purple-1: #A9299F;
+    --purple-2: #7837F8;
+    --light-brown:#EFCD98;
+    --dark-red: #CD281B;
+    --white: #fff;
+    --black: #000;
+    --grey: #333333;
+
+
+    --font-1: 'Poppins', sans-serif;
+}
+
+
+/* global styles */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-1);
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: var(--primary-color) !important;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+    text-align: center;
+    color: var(--white);
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
