@@ -1,5 +1,5 @@
 <template>
-    Home page
+    Contact sales page
 </template>
 
 <script>

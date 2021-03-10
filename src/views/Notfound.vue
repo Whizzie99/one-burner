@@ -1,5 +1,5 @@
 <template>
-    Home page
+    PAGE NOT AVAILABLE
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-    Home page
+    Enterprise page
 </template>
 
 <script>
