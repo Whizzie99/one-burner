@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="container">
-            <div class="grid-1 hero-section">
+            <div class="grid-2 hero-section">
                 <div class="hero-left">
                     <div>
                         <h1 class="main-header">Collaborate with your team <br> and get more done</h1>
@@ -67,9 +67,12 @@
             </div>
         </div>
     </section>
+    <Companies/>
 </template>
 
 <script>
+import Companies from '../components/Companies.vue';
+
 import girl1 from '../assets/imgs/person_imgs/girl_1.png';
 import girl2 from '../assets/imgs/person_imgs/girl_2.png';
 import guy1 from '../assets/imgs/person_imgs/man_img.png';
@@ -81,7 +84,8 @@ export default {
             person2: girl2,
             person3: guy1
         }
-    }
+    },
+    components:{Companies}
 }
 </script>
 
@@ -275,5 +279,7 @@ export default {
         transform: rotate(-45deg);
         left: 220px;
     }
+
+    /* right hero section end */
 
 </style>
